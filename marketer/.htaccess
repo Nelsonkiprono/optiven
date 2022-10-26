@@ -1,0 +1,12 @@
+RewriteEngine On
+<IfModule mod_rewrite.c>
+RewriteBase /marketer/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !=/favicon.ico
+
+RewriteRule ^home home.php
+RewriteRule ^index index.php
+
+
+</IfModule>

@@ -1,0 +1,81 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.div_class{
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#FilterProjects{
+  background-color: #824033;
+  color: white;
+}
+
+.home_body{
+  background-color: #008546 !important;
+}
+
+.login_button{
+  background-color: #824033;
+}
+
+.login_page{
+  background-color: transparent !important;
+}
+
+
+#Search{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  width: 50%;
+  height: 40px;
+  padding-left: 10px;
+    }
+    
+input[type=text]:focus {
+     outline: none;
+     border: 1px solid;
+     color: #2d9fd9;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 90%;
+  border-top: 10px solid #824033;
+  border-bottom: 10px solid #824033;
+  border-left: 10px solid #824033;
+  width: 60px;
+  height: 60px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
